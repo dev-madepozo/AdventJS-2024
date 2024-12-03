@@ -1,6 +1,6 @@
 # Challenge #1: 🎁 First gift repeated!
 
-##### Level: 🟢 EASY
+#### Level: `🟢 EASY`
 
 ## Instructions
 
