@@ -33,11 +33,16 @@ To get started with the solutions, follow these steps:
 
 - Navigate to the challenges directory to see each solution
 
+  ```bash
+  cd challenges
+  ```
+
 ## Table of Challenges
 
 |  Challenge  | Title                                                                       | Difficulty | Score      | Solution                            |
 | :---------: | :-------------------------------------------------------------------------- | :---:      | :--------- | :---------------------------------: |
 | #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge01.md)   |
+| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge02.md)   |
 
 ## How to contribute
 
