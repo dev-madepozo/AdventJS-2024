@@ -70,7 +70,7 @@ organizeInventory(inventary2)
       acc[category] ??= {}
       acc[category][name] = ~~acc[category][name] + quantity
       return acc
-    }, {});
+    }, {})
   }
   ```
 
@@ -86,7 +86,7 @@ organizeInventory(inventary2)
       acc[category] ??= {}
       acc[category][name] = ~~acc[category][name] + quantity
       return acc
-    }, {});
+    }, {})
   }
   ```
 - **Python**
