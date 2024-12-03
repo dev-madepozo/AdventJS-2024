@@ -35,14 +35,14 @@ console.log(preparedGifts3) // []
 
 - **TypeScript**
 
-  ```js
+  ```ts
   function prepareGifts(gifts: number[]): number[] {
     return [...new Set(gifts)].sort((a: number, b: number) => a - b)
   }
   ```
 - **Python**
 
-  ```python
+  ```py
   def prepare_gifts(gifts):
     return sorted(list(set(gifts)))
   ```
