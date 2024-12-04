@@ -39,11 +39,12 @@ To get started with the solutions, follow these steps:
 
 ## Table of Challenges
 
-|  Challenge  | Title                                                                       | Difficulty | Score      | Solution                            |
-| :---------: | :-------------------------------------------------------------------------- | :---:      | :--------- | :---------------------------------: |
-| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge01.md)   |
-| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge02.md)   |
-| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)    | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge03.md)   |
+|  Challenge  | Title                                                                          | Difficulty | Score      | Solution                            |
+| :---------: | :----------------------------------------------------------------------------- | :---:      | :--------- | :---------------------------------: |
+| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge01.md)   |
+| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge02.md)   |
+| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge03.md)   |
+| #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge04.md)   |
 
 ## How to contribute
 
