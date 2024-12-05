@@ -45,6 +45,7 @@ To get started with the solutions, follow these steps:
 | #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge02.md)   |
 | #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge03.md)   |
 | #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge04.md)   |
+| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge05.md)   |
 
 ## How to contribute
 
