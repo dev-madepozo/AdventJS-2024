@@ -46,6 +46,7 @@ To get started with the solutions, follow these steps:
 | #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge03.md)   |
 | #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge04.md)   |
 | #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge05.md)   |
+| #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge06.md)   |
 
 ## How to contribute
 
