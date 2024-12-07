@@ -47,7 +47,7 @@ To get started with the solutions, follow these steps:
 | #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge04.md)   |
 | #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge05.md)   |
 | #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge06.md)   |
-| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge07.md)   |
+| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️   | [code](/chalenges/challenge07.md)   |
 
 ## How to contribute
 
