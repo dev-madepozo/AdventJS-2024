@@ -39,15 +39,15 @@ To get started with the solutions, follow these steps:
 
 ## Table of Challenges
 
-|  Challenge  | Title                                                                          | Difficulty | Score      | Solution                            |
-| :---------: | :----------------------------------------------------------------------------- | :---:      | :--------- | :---------------------------------: |
-| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge01.md)   |
-| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge02.md)   |
-| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge03.md)   |
-| #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge04.md)   |
-| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge05.md)   |
-| #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [code](/chalenges/challenge06.md)   |
-| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️   | [code](/chalenges/challenge07.md)   |
+|  Challenge  | Title                                                                          | Difficulty | Score       | Solution                           |
+| :---------: | :----------------------------------------------------------------------------- | :---:      | :---------- | :--------------------------------: |
+| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge01.md)  |
+| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md)  |
+| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md)  |
+| #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge04.md)  |
+| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md)  |
+| #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge06.md)  |
+| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md)  |
 
 ## How to contribute
 
