@@ -40,11 +40,9 @@ fixPackages('a(b(c))e')
 
   ```js
   function fixPackages(packages) {
-    while(packages.includes('(')) {
-      const [matched, value] = packages.match(/\((\w+)\)/)
-      packages = packages.replace(matched, [...value].reverse().join(''))
+    while(packages.indexOf('(') > -1) {
+      packages = packages.replace(/\((\w+)\)/, (_, v) => [...v].reverse().join(''))
     }
-
     return packages
   }
   ```
@@ -52,11 +50,24 @@ fixPackages('a(b(c))e')
 - **TypeScript**
 
   ```ts
-  
+  function fixPackages(packages: string): string {
+    while(packages.indexOf('(') > -1) {
+      packages = packages.replace(
+        /\((\w+)\)/,
+        (_, v: string) => [...v].reverse().join('')
+      )
+    }
+    return packages
+  }
   ```
 
 - **Python**
 
   ```py
-  
+  import re
+
+  def fixPackages(packages):
+    while '(' in packages:
+      packages = re.sub(r'\((\w+)\)', lambda match: match.group(1)[::-1], packages)
+    return packages
   ```
