@@ -1,6 +1,6 @@
 # Challenge #8: 🦌 The reno race
 
-#### Level: `🟠 MEDIUM`
+#### Level: `🟢 EASY`
 
 ## Instructions
 
@@ -81,5 +81,17 @@ drawRace([3, 7, -2], 12)
 - **Python**
 
   ```py
+  def draw_race(indices, length):
+    result = []
+    rjustValue = length + len(indices) - 1
 
+    for i, pos in enumerate(indices):
+      lane = ['~'] * length
+      if pos:
+        lane[pos] = 'r'
+
+      lane_str = ''.join(lane).rjust(rjustValue - i)
+      result.append(f'{lane_str} /{i + 1}')
+    
+    return '\n'.join(result)
   ```
