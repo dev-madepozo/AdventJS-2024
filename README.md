@@ -48,6 +48,7 @@ To get started with the solutions, follow these steps:
 | #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md)  |
 | #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge06.md)  |
 | #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md)  |
+| #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md)  |
 
 ## How to contribute
 
