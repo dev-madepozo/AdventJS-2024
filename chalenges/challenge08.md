@@ -57,7 +57,7 @@ drawRace([3, 7, -2], 12)
   ```js
   function drawRace(indices, length) {
     return indices.map((pos, i) => {
-      const lane = Array.from({ length }, () => '~')
+      const lane = Array(length).fill('~')
         .with(pos, pos ? 'r' : '~')
         .join('')
       return `${lane.padStart(length + indices.length - ++i)} /${i}`
@@ -70,7 +70,7 @@ drawRace([3, 7, -2], 12)
   ```ts
   function drawRace(indices: number[], length: number): string {
     return indices.map((pos: number, i: number) => {
-      const lane: string = Array.from({ length }, () => '~')
+      const lane: string = Array(length).fill('~')
         .with(pos, pos ? 'r' : '~')
         .join('')
       return `${lane.padStart(length + indices.length - ++i)} /${i}`
