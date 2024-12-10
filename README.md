@@ -50,6 +50,7 @@ To get started with the solutions, follow these steps:
 | #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md)  |
 | #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md)  |
 | #9          | 🚂 [The magic train](https://adventjs.dev/en/challenges/2024/9)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge09.md)  |
+| #10         | 👩‍💻 [The elfish assembler](https://adventjs.dev/en/challenges/2024/10)          | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge10.md)  |
 
 ## How to contribute
 
