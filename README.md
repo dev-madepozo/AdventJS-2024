@@ -40,8 +40,8 @@ To get started with the solutions, follow these steps:
 
 ## Table of Challenges
 
-|  Challenge  | Title                                                                          | Difficulty | Score       | Solution                           |
-| :---------: | :----------------------------------------------------------------------------- | :---:      | :---------- | :--------------------------------: |
+|  Challenge  | Title                                                                          | Difficulty | Score      | Solution                           |
+| :---------: | :----------------------------------------------------------------------------- | :---:      | :--------  | :--------------------------------: |
 | #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge01.md)  |
 | #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md)  |
 | #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md)  |
@@ -52,6 +52,7 @@ To get started with the solutions, follow these steps:
 | #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md)  |
 | #9          | 🚂 [The magic train](https://adventjs.dev/en/challenges/2024/9)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge09.md)  |
 | #10         | 👩‍💻 [The elfish assembler](https://adventjs.dev/en/challenges/2024/10)          | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge10.md)  |
+| #11         | 🏴‍☠️ [Filenames encoded](https://adventjs.dev/en/challenges/2024/11)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge11.md)  |
 
 ## How to contribute
 
