@@ -3,6 +3,7 @@
 ![Advent 2024](/assets/hero.png)
 
 # 🎄 AdventJS 2024 🎁
+[Spanish Versión](/README-es.md)
 
 </div>
 
