@@ -42,16 +42,16 @@ Para comenzar con las soluciones, sigue estos pasos:
 
 |  Desafío    | Título                                                                         | Dificultad | Puntuación  | Solución                         |
 | :---------: | :----------------------------------------------------------------------------- | :---:      | :---------- | :------------------------------: |
-| #1          | 🎁 [¡Primer regalo repetido!](https://adventjs.dev/en/challenges/2024/1)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge01.md) |
-| #2          | 🖼️ [Enmarcando nombres](https://adventjs.dev/en/challenges/2024/2)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge02.md) |
-| #3          | 🏗️ [Organizando el inventario](https://adventjs.dev/en/challenges/2024/3)      | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge03.md) |
-| #4          | 🎄 [Decorando el árbol de Navidad](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge04.md) |
-| #5          | 👞 [Emparejando botas](https://adventjs.dev/en/challenges/2024/4)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge05.md) |
-| #6          | 📦 [¿Regalo dentro de la caja?](https://adventjs.dev/en/challenges/2024/6)     | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge06.md) |
-| #7          | 👹 [El ataque del Grinch](https://adventjs.dev/en/challenges/2024/7)           | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge07.md) |
-| #8          | 🦌 [La carrera de renos](https://adventjs.dev/en/challenges/2024/8)            | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge08.md) |
-| #9          | 🚂 [El tren mágico](https://adventjs.dev/en/challenges/2024/9)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge09.md) |
-| #10         | 👩‍💻 [El ensamblador élfico](https://adventjs.dev/en/challenges/2024/10)         | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge10.md) |
+| #1          | 🎁 [¡Primer regalo repetido!](https://adventjs.dev/es/challenges/2024/1)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge01.md) |
+| #2          | 🖼️ [Enmarcando nombres](https://adventjs.dev/es/challenges/2024/2)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge02.md) |
+| #3          | 🏗️ [Organizando el inventario](https://adventjs.dev/es/challenges/2024/3)      | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge03.md) |
+| #4          | 🎄 [Decorando el árbol de Navidad](https://adventjs.dev/es/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge04.md) |
+| #5          | 👞 [Emparejando botas](https://adventjs.dev/es/challenges/2024/4)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge05.md) |
+| #6          | 📦 [¿Regalo dentro de la caja?](https://adventjs.dev/es/challenges/2024/6)     | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge06.md) |
+| #7          | 👹 [El ataque del Grinch](https://adventjs.dev/es/challenges/2024/7)           | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge07.md) |
+| #8          | 🦌 [La carrera de renos](https://adventjs.dev/es/challenges/2024/8)            | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge08.md) |
+| #9          | 🚂 [El tren mágico](https://adventjs.dev/es/challenges/2024/9)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge09.md) |
+| #10         | 👩‍💻 [El ensamblador élfico](https://adventjs.dev/es/challenges/2024/10)         | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge10.md) |
 
 ## Cómo Contribuir
 
