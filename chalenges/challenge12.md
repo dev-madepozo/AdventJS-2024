@@ -43,11 +43,9 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
   function calculatePrice(ornaments) {
     const costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
 
-    if (/[^*o^#@]/.test(ornaments)) return undefined
-
     return [...ornaments].reduce((acc, cur, i, arr) => (
-      acc + (costs[cur] < costs[arr[i + 1]] ? -1 : 1) * costs[cur]
-    ), 0)
+      acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
+    ), 0) || undefined
   }
   ```
 
@@ -60,11 +58,9 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
   function calculatePrice(ornaments: string): number | undefined {
     const costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
 
-    if (/[^*o^#@]/.test(ornaments)) return undefined
-
     return [...ornaments].reduce((acc, cur, i, arr) => (
-      acc + (costs[cur] < costs[arr[i + 1]] ? -1 : 1) * costs[cur]
-    ), 0)
+      acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
+    ), 0) || undefined
   }
   ```
 
@@ -74,9 +70,6 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
   def calculate_price(ornaments):
     costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
 
-    if re.search(r'[^*o^#@]', ornaments):
-      return "undefined"
-    
     tree_price = 0
     for i in range(len(ornaments)):
       current_cost = costs[ornaments[i]]
@@ -85,5 +78,5 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
       else:
           total_price += current_cost
 
-    return total_price
+    return total_price || undefined
   ```
