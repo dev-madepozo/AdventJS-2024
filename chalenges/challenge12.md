@@ -41,7 +41,7 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
    * @return {number | undefined} - The price of the tree
   */
   function calculatePrice(ornaments) {
-    const costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
+    const costs = { '*': 1, 'o': 5, '^': 10, '#': 50, '@': 100 }
 
     return [...ornaments].reduce((acc, cur, i, arr) => (
       acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
@@ -56,7 +56,7 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
    * @return {number | undefined} - The price of the tree
   */
   function calculatePrice(ornaments: string): number | undefined {
-    const costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
+    const costs = { '*': 1, 'o': 5, '^': 10, '#': 50, '@': 100 }
 
     return [...ornaments].reduce((acc, cur, i, arr) => (
       acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
@@ -68,7 +68,7 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
 
   ```py
   def calculate_price(ornaments):
-    costs = {'*': 1, 'o': 5, '^': 10, '#': 50, '@': 100}
+    costs = { '*': 1, 'o': 5, '^': 10, '#': 50, '@': 100 }
 
     tree_price = 0
     for i in range(len(ornaments)):
