@@ -51,4 +51,6 @@ decodeFilename('987654321_elf-roster.csv.tempfile')
 - **Python**
 
   ```py
+  def decode_filename(filename: str) -> str:
+    return re.search(r'_([\w-]+\.\w+)', filename).group(1)
   ```
