@@ -53,6 +53,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #9          | 🚂 [El tren mágico](https://adventjs.dev/es/challenges/2024/9)                   | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge09.md) |
 | #10         | 👩‍💻 [El ensamblador élfico](https://adventjs.dev/es/challenges/2024/10)           | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge10.md) |
 | #11         | 🏴‍☠️ [Nombres de archivos codificados](https://adventjs.dev/es/challenges/2024/11) | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge11.md) |
+| #12         | 💵 [¿Cuánto cuesta el árbol?](https://adventjs.dev/es/challenges/2024/12)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge12.md) |
 
 ## Cómo Contribuir
 
