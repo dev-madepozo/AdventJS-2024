@@ -72,13 +72,13 @@ isRobotBack('UU!U?D') // [0,1]
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (next) => operations[next](),
-      '!': (next, nextPos) =>
-        'LR'.includes(next)
-        ? arr[nextPos] = ['L', 'R'][+(next == 'L')]
-        : arr[nextPos] = ['U', 'D'][+(next == 'U')],
-      '?': (next, nextPos) => 
-        arr[nextPos] = [next, ''].at(arr.lastIndexOf(next, nextPos - 1) > -1)
+      '*': (nextMove) => operations[nextMove](),
+      '!': (nextMove, nextPos) =>
+        'LR'.includes(nextMove)
+        ? arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
+        : arr[nextPos] = ['U', 'D'][+(nextMove == 'U')],
+      '?': (nextMove, nextPos) => 
+        arr[nextPos] = [nextMove].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
     }
 
     for (const i in arr)
@@ -99,13 +99,13 @@ isRobotBack('UU!U?D') // [0,1]
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (next) => operations[next](),
-      '!': (next, nextPos) =>
-        'LR'.includes(next)
-        ? arr[nextPos] = ['L', 'R'][+(next == 'L')]
-        : arr[nextPos] = ['U', 'D'][+(next == 'U')],
-      '?': (next, nextPos) => 
-        arr[nextPos] = [next, ''].at(arr.lastIndexOf(next, nextPos - 1) > -1)
+      '*': (nextMove) => operations[nextMove](),
+      '!': (nextMove, nextPos) =>
+        'LR'.includes(nextMove)
+        ? arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
+        : arr[nextPos] = ['U', 'D'][+(nextMove == 'U')],
+      '?': (nextMove, nextPos) => 
+        arr[nextPos] = [nextMove].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
     }
 
     for (const i in arr)
