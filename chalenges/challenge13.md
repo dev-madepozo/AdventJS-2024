@@ -65,28 +65,24 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```js
   function isRobotBack(moves) {
-    let x = 0, y = 0, i = 0
+    let x = 0, y = 0
     const arr = [...moves]
     const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove, nextPos) => {
-        if ('LR'.includes(nextMove)) {
-          arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
-        } else {
-          arr[nextPos] = ['U', 'D'][+(nextMove == 'U')]
-        }
-      },
-      '?': (nextMove, nextPos) => 
-        arr[nextPos] = [nextMove, ''].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
+      '*': (next) => operations[next](),
+      '!': (next, nextPos) =>
+        'LR'.includes(next)
+        ? arr[nextPos] = ['L', 'R'][+(next == 'L')]
+        : arr[nextPos] = ['U', 'D'][+(next == 'U')],
+      '?': (next, nextPos) => 
+        arr[nextPos] = [next, ''].at(arr.lastIndexOf(next, nextPos - 1) > -1)
     }
 
-    for (const i in arr) {
+    for (const i in arr)
       operations[arr[i]]?.(moves[+i + 1], +i + 1)
-    }
 
     return [true, [x, y]][+!!(x + y)]
   }
@@ -103,21 +99,17 @@ isRobotBack('UU!U?D') // [0,1]
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove: string) => operations[nextMove](),
-      '!': (nextMove: string, nextPos: number) => {
-        if ('LR'.includes(nextMove)) {
-          arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
-        } else {
-          arr[nextPos] = ['U', 'D'][+(nextMove == 'U')]
-        }
-      },
-      '?': (nextMove: string, nextPos: number) => 
-        arr[nextPos] = [nextMove, ''].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
+      '*': (next) => operations[next](),
+      '!': (next, nextPos) =>
+        'LR'.includes(next)
+        ? arr[nextPos] = ['L', 'R'][+(next == 'L')]
+        : arr[nextPos] = ['U', 'D'][+(next == 'U')],
+      '?': (next, nextPos) => 
+        arr[nextPos] = [next, ''].at(arr.lastIndexOf(next, nextPos - 1) > -1)
     }
 
-    for (const i in arr) {
+    for (const i in arr)
       operations[arr[i]]?.(moves[+i + 1], +i + 1)
-    }
 
     return [true, [x, y]][+!!(x + y)]
   }
