@@ -46,17 +46,17 @@ isRobotBack('U?U')   // [0,1]
 isRobotBack('*U?U')  // [0,2]
 isRobotBack('U?D?U') // true
 
-// Step-by-step examples:
+// Ejemplos paso a paso:
 isRobotBack('R!U?U') // [1,0]
-// 'R'  -> moves to the right 
-// '!U' -> inverts and becomes 'D'
-// '?U' -> moves upwards, because the 'U' movement hasn't been done yet
+// 'R'  -> se mueve a la derecha 
+// '!U' -> se invierte y se convierte en 'D'
+// '?U' -> se mueve arriba, porque no se ha hecho el movimiento 'U'
 
 isRobotBack('UU!U?D') // [0,1]
-// 'U'  -> moves upwards
-// 'U'  -> moves upwards
-// '!U' -> inverts and becomes 'D'
-// '?D' -> does not move, since the 'D' movement has already been done
+// 'U'  -> se mueve arriba
+// 'U'  -> se mueve arriba
+// '!U' -> se invierte y se convierte en 'D'
+// '?D' -> no se mueve, ya que ya se hizo el movimiento 'D'
 ```
 
 ## Solutions
@@ -73,20 +73,19 @@ isRobotBack('UU!U?D') // [0,1]
       'D': () => y -= 1,
       'U': () => y += 1,
       '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove) => {
+      '!': (nextMove, nextPos) => {
         if ('LR'.includes(nextMove)) {
-          arr[i + 1] = ['L', 'R'][+(nextMove == 'L')]
+          arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
         } else {
-          arr[i + 1] = ['U', 'D'][+(nextMove == 'U')]
+          arr[nextPos] = ['U', 'D'][+(nextMove == 'U')]
         }
       },
-      '?': (nextMove) => 
-        arr[i + 1] = [arr[i + 1], ''].at(arr.lastIndexOf(nextMove, i) > -1),
+      '?': (nextMove, nextPos) => 
+        arr[nextPos] = [nextMove, ''].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
     }
 
-    while (i < arr.length) {
-      operations[arr[i]]?.(moves[i + 1])
-      i++
+    for (const i in arr) {
+      operations[arr[i]]?.(moves[+i + 1], +i + 1)
     }
 
     return [true, [x, y]][+!!(x + y)]
@@ -97,28 +96,27 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```ts
   function isRobotBack(moves: string[]): true | [number, number] {
-    let x = 0, y = 0, i = 0
+    let x = 0, y = 0
     const arr = [...moves]
     const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove) => {
+      '*': (nextMove: string) => operations[nextMove](),
+      '!': (nextMove: string, nextPos: number) => {
         if ('LR'.includes(nextMove)) {
-          arr[i + 1] = ['L', 'R'][+(nextMove == 'L')]
+          arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
         } else {
-          arr[i + 1] = ['U', 'D'][+(nextMove == 'U')]
+          arr[nextPos] = ['U', 'D'][+(nextMove == 'U')]
         }
       },
-      '?': (nextMove) => 
-        arr[i + 1] = [arr[i + 1], ''].at(arr.lastIndexOf(nextMove, i) > -1),
+      '?': (nextMove: string, nextPos: number) => 
+        arr[nextPos] = [nextMove, ''].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
     }
 
-    while (i < arr.length) {
-      operations[arr[i]]?.(moves[i + 1])
-      i++
+    for (const i in arr) {
+      operations[arr[i]]?.(moves[+i + 1], +i + 1)
     }
 
     return [true, [x, y]][+!!(x + y)]
