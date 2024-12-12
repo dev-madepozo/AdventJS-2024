@@ -54,7 +54,7 @@ To get started with the solutions, follow these steps:
 | #10         | 👩‍💻 [The elfish assembler](https://adventjs.dev/en/challenges/2024/10)          | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge10.md) |
 | #11         | 🏴‍☠️ [Filenames encoded](https://adventjs.dev/en/challenges/2024/11)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge11.md) |
 | #12         | 💵 [How much does the tree cost?](https://adventjs.dev/en/challenges/2024/12)  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge12.md) |
-| #13         | 🤖 [Is the robot back?](https://adventjs.dev/en/challenges/2024/13)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge13.md) |
+| #13         | 🤖 [Is the robot back?](https://adventjs.dev/en/challenges/2024/13)            | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge13.md) |
 
 ## How to contribute
 
