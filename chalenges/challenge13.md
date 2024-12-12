@@ -99,12 +99,12 @@ isRobotBack('UU!U?D') // [0,1]
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove, nextPos) =>
+      '*': (nextMove: string) => operations[nextMove](),
+      '!': (nextMove: string, nextPos: number) =>
         'LR'.includes(nextMove)
         ? arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
         : arr[nextPos] = ['U', 'D'][+(nextMove == 'U')],
-      '?': (nextMove, nextPos) => 
+      '?': (nextMove: string, nextPos: number) => 
         arr[nextPos] = [nextMove].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
     }
 
