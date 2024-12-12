@@ -44,7 +44,7 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
     const costs = { '*': 1, 'o': 5, '^': 10, '#': 50, '@': 100 }
 
     return [...ornaments].reduce((acc, cur, i, arr) => (
-      acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
+      acc + ([1, -1][+(costs[cur] < costs[arr[++i]])]) * costs[cur]
     ), 0) || undefined
   }
   ```
@@ -59,7 +59,7 @@ calculatePrice('#@Z')  // undefined (Z is unknown)
     const costs = { '*': 1, 'o': 5, '^': 10, '#': 50, '@': 100 }
 
     return [...ornaments].reduce((acc, cur, i, arr) => (
-      acc + ([1, -1].at(costs[cur] < costs[arr[++i]])) * costs[cur]
+      acc + ([1, -1][+(costs[cur] < costs[arr[++i]])]) * costs[cur]
     ), 0) || undefined
   }
   ```
