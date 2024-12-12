@@ -1,12 +1,12 @@
 # Challenge #13: 🤖 Is the robot back?
 
-#### Level: `🟠 MEDIUM`
+#### Level: `🔴 HARD`
 
 ## Instructions
 
-The North Pole elves have created a special robot 🤖 that helps Santa Claus distribute gifts inside a large warehouse. `The robot moves in a 2D plane starting from the origin (0, 0).`
+The elves at the North Pole have created a special robot 🤖 that helps Santa Claus distribute gifts inside a large warehouse. `The robot moves on a 2D plane and we start from the origin (0, 0).`
 
-We want to know if, after executing a series of movements, the robot ends up exactly where it started.
+We want to know if, after executing a series of movements, the robot returns to exactly where it started.
 
 The robot's basic commands are:
 
@@ -15,18 +15,18 @@ The robot's basic commands are:
 - **U**: Move upwards
 - **D**: Move downwards
 
-But it also has certain movement modifiers:
+But it also has certain modifiers for the movements:
 
-- *: The movement is performed with double intensity (e.g., *R means RR)
-- !: The next movement is inverted (e.g., R!L performs as RR)
-- ?: The next movement is only executed if it hasn't been done before (e.g., R?R means R)
+- *: The movement is done with double intensity (e.g., *R means RR)
+- !: The next movement is inverted (e.g., R!L is considered as RR)
+- ?: The next movement is done only if it hasn't been done before (e.g., R?R means R)
 
-`Note`: Keep in mind that when the movement is inverted with !, the original movement is counted for ?. For example, !U?U inverts the movement of U but counts as if the U movement was performed.
+**Note**: When the movement is inverted with ! `the inverted movement is counted and not the original one`. For example, !U?U inverts the U movement, so it counts as having done the D movement but not the U. Thus, !U?U translates to D?U, and therefore, the final U movement is done.
 
 You should return:
 
-- true: if the robot ends up exactly where it started
-- [x, y]: if the robot does not end up exactly where it started, return the position where it stopped
+- `true`: if the robot returns exactly to where it started
+- [x, y]: if the robot does not return to where it started, return the position where it stopped
 
 **Examples:**
 
@@ -44,8 +44,19 @@ isRobotBack('U!D')   // [0,2]
 isRobotBack('R?L')   // true
 isRobotBack('U?U')   // [0,1]
 isRobotBack('*U?U')  // [0,2]
-isRobotBack('R!U?U') // [1,0]
 isRobotBack('U?D?U') // true
+
+// Step-by-step examples:
+isRobotBack('R!U?U') // [1,0]
+// 'R'  -> moves to the right 
+// '!U' -> inverts and becomes 'D'
+// '?U' -> moves upwards, because the 'U' movement hasn't been done yet
+
+isRobotBack('UU!U?D') // [0,1]
+// 'U'  -> moves upwards
+// 'U'  -> moves upwards
+// '!U' -> inverts and becomes 'D'
+// '?D' -> does not move, since the 'D' movement has already been done
 ```
 
 ## Solutions
@@ -56,12 +67,12 @@ isRobotBack('U?D?U') // true
   function isRobotBack(moves) {
     let x = 0, y = 0, i = 0
     const arr = [...moves]
-    const direction = {
+    const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove) => direction[nextMove](),
+      '*': (nextMove) => operations[nextMove](),
       '!': (nextMove) => {
         if ('LR'.includes(nextMove)) {
           arr[i + 1] = ['L', 'R'][+(nextMove == 'L')]
@@ -69,12 +80,12 @@ isRobotBack('U?D?U') // true
           arr[i + 1] = ['U', 'D'][+(nextMove == 'U')]
         }
       },
-      '?': (nextMove) => arr.lastIndexOf(nextMove, i) > -1 ? arr[i + 1] = '' : null
+      '?': (nextMove) => 
+        arr[i + 1] = [arr[i + 1], ''].at(arr.lastIndexOf(nextMove, i) > -1),
     }
 
     while (i < arr.length) {
-      const move = arr[i]
-      move in direction && direction[move](moves[i + 1])
+      operations[arr[i]]?.(moves[i + 1])
       i++
     }
 
@@ -88,12 +99,12 @@ isRobotBack('U?D?U') // true
   function isRobotBack(moves: string[]): true | [number, number] {
     let x = 0, y = 0, i = 0
     const arr = [...moves]
-    const direction = {
+    const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
-      '*': (nextMove) => direction[nextMove](),
+      '*': (nextMove) => operations[nextMove](),
       '!': (nextMove) => {
         if ('LR'.includes(nextMove)) {
           arr[i + 1] = ['L', 'R'][+(nextMove == 'L')]
@@ -101,12 +112,12 @@ isRobotBack('U?D?U') // true
           arr[i + 1] = ['U', 'D'][+(nextMove == 'U')]
         }
       },
-      '?': (nextMove) => arr.lastIndexOf(nextMove, i) > -1 ? arr[i + 1] = '' : null
+      '?': (nextMove) => 
+        arr[i + 1] = [arr[i + 1], ''].at(arr.lastIndexOf(nextMove, i) > -1),
     }
 
     while (i < arr.length) {
-      const move = arr[i]
-      move in direction && direction[move](moves[i + 1])
+      operations[arr[i]]?.(moves[i + 1])
       i++
     }
 
