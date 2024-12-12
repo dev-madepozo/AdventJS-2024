@@ -54,6 +54,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #10         | 👩‍💻 [El ensamblador élfico](https://adventjs.dev/es/challenges/2024/10)           | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge10.md) |
 | #11         | 🏴‍☠️ [Nombres de archivos codificados](https://adventjs.dev/es/challenges/2024/11) | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge11.md) |
 | #12         | 💵 [¿Cuánto cuesta el árbol?](https://adventjs.dev/es/challenges/2024/12)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge12.md) |
+| #13         | 🤖 [¿El robot está de vuelta?](https://adventjs.dev/en/challenges/2024/13)       | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge13.md) |
 
 ## Cómo Contribuir
 
