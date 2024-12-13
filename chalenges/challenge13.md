@@ -67,18 +67,16 @@ isRobotBack('UU!U?D') // [0,1]
   function isRobotBack(moves) {
     let x = 0, y = 0
     const arr = [...moves]
+    const inverted = { L : 'R', R: 'L', D: 'U', U: 'D' }
     const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
       '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove, nextPos) =>
-        'LR'.includes(nextMove)
-        ? arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
-        : arr[nextPos] = ['U', 'D'][+(nextMove == 'U')],
+      '!': (nextMove, nextPos) => arr[nextPos] = inverted[nextMove],
       '?': (nextMove, nextPos) => 
-        arr[nextPos] = [nextMove].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
+        arr[nextPos] = [nextMove][+(arr.lastIndexOf(nextMove, nextPos - 1) > -1)]
     }
 
     for (const i in arr)
@@ -94,18 +92,16 @@ isRobotBack('UU!U?D') // [0,1]
   function isRobotBack(moves: string[]): true | [number, number] {
     let x = 0, y = 0
     const arr = [...moves]
+    const inverted = { L : 'R', R: 'L', D: 'U', U: 'D' }
     const operations = {
       'R': () => x += 1,
       'L': () => x -= 1,
       'D': () => y -= 1,
       'U': () => y += 1,
       '*': (nextMove: string) => operations[nextMove](),
-      '!': (nextMove: string, nextPos: number) =>
-        'LR'.includes(nextMove)
-        ? arr[nextPos] = ['L', 'R'][+(nextMove == 'L')]
-        : arr[nextPos] = ['U', 'D'][+(nextMove == 'U')],
+      '!': (nextMove: string, nextPos: number) => arr[nextPos] = inverted[nextMove],
       '?': (nextMove: string, nextPos: number) => 
-        arr[nextPos] = [nextMove].at(arr.lastIndexOf(nextMove, nextPos - 1) > -1)
+        arr[nextPos] = [nextMove][+(arr.lastIndexOf(nextMove, nextPos - 1) > -1)]
     }
 
     for (const i in arr)
