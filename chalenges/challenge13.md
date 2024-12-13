@@ -107,10 +107,24 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```py
   def is_robot_back(moves: list[str]) -> bool | list[int]:
-    x = y = 0
-    inverted = { 'L': 'R', 'R': 'L', 'D': 'U', 'U': 'D' }
+    x, y, arr = (0, 0, list(moves))
+    opposites = { 'L': 'R', 'R': 'L', 'D': 'U', 'U': 'D' }
     operations = {
-      'R': lambda : x
+      'R': lambda : x++,
+      'L': lambda : x--,
+      'D': lambda : y--,
+      'U': lambda : y++,
+      '*': lambda next: operations[next](),
+      '!': lambda next, idx: arr[idx] = opposites[next],
+      '?': lambda next, idx: arr[idx] = None if next in arr and arr.index(next) < idx else next
     }
-    return True
+
+    for i in enumerate(arr):
+      if arr[i] in operations:
+        operations[arr[i]](moves[i + 1], i + 1)
+
+    if x == y == 0:
+      return True
+    else
+      return [x, y]
   ```
