@@ -90,8 +90,6 @@ console.log(moveTrain(board, 'R'))
 - **Python**
 
   ```py
-  from typing import List, Literal
-
   def move_train(board: List[str], mov: Literal['U', 'D', 'R', 'L']) -> Literal['none', 'crash', 'eat']:
     x = next(i for i, row in enumerate(board) if '@' in row)
     y = board[x].index('@')
