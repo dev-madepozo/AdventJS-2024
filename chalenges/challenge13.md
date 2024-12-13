@@ -65,19 +65,18 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```js
   function isRobotBack(moves) {
-    let [x, y, arr] = [0, 0, [...moves]]
-    const opposites = { L : 'R', R: 'L', D: 'U', U: 'D' }
+    let [x, y, arr, inverted] = [0, 0, [...moves], {L: 'R', R: 'L', D: 'U', U: 'D'}]
     const operations = {
       'R': () => x++,
       'L': () => x--,
       'D': () => y--,
       'U': () => y++,
       '*': next => operations[next](),
-      '!': (next, idx) => arr[idx] = opposites[next],
+      '!': (next, idx) => arr[idx] = inverted[next],
       '?': (next, idx) => arr[idx] = [next][+(arr.indexOf(next) < idx)]
     }
     for (let i in arr)
-      operations[arr[i]]?.(moves[+i + 1], +i + 1)
+      operations[arr[i]]?.(arr[+i + 1], +i + 1)
     return [true, [x, y]][+!!(x + y)]
   }
   ```
@@ -86,8 +85,7 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```ts
   function isRobotBack(moves: string[]): true | [number, number] {
-    let [x, y, arr] = [0, 0, [...moves]]
-    const opposites = { L : 'R', R: 'L', D: 'U', U: 'D' }
+    let [x, y, arr, inverted] = [0, 0, [...moves], {L: 'R', R: 'L', D: 'U', U: 'D'}]
     const operations = {
       'R': () => x++,
       'L': () => x--,
@@ -98,7 +96,7 @@ isRobotBack('UU!U?D') // [0,1]
       '?': (next: string, idx: number) => arr[idx] = [next][+(arr.indexOf(next) < idx)]
     }
     for (let i in arr)
-      operations[arr[i]]?.(moves[+i + 1], +i + 1)
+      operations[arr[i]]?.(arr[+i + 1], +i + 1)
     return [true, [x, y]][+!!(x + y)]
   }
   ```
