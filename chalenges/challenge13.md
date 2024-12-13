@@ -65,23 +65,19 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```js
   function isRobotBack(moves) {
-    let x = 0, y = 0
-    const arr = [...moves]
-    const inverted = { L : 'R', R: 'L', D: 'U', U: 'D' }
+    let [x, y, arr] = [0, 0, [...moves]]
+    const opposites = { L : 'R', R: 'L', D: 'U', U: 'D' }
     const operations = {
-      'R': () => x += 1,
-      'L': () => x -= 1,
-      'D': () => y -= 1,
-      'U': () => y += 1,
-      '*': (nextMove) => operations[nextMove](),
-      '!': (nextMove, nextPos) => arr[nextPos] = inverted[nextMove],
-      '?': (nextMove, nextPos) => 
-        arr[nextPos] = [nextMove][+(arr.lastIndexOf(nextMove, nextPos - 1) > -1)]
+      'R': () => x++,
+      'L': () => x--,
+      'D': () => y--,
+      'U': () => y++,
+      '*': next => operations[next](),
+      '!': (next, idx) => arr[idx] = opposites[next],
+      '?': (next, idx) => arr[idx] = [next][+(arr.indexOf(next) < idx)]
     }
-
-    for (const i in arr)
+    for (let i in arr)
       operations[arr[i]]?.(moves[+i + 1], +i + 1)
-
     return [true, [x, y]][+!!(x + y)]
   }
   ```
@@ -90,23 +86,19 @@ isRobotBack('UU!U?D') // [0,1]
 
   ```ts
   function isRobotBack(moves: string[]): true | [number, number] {
-    let x = 0, y = 0
-    const arr = [...moves]
-    const inverted = { L : 'R', R: 'L', D: 'U', U: 'D' }
+    let [x, y, arr] = [0, 0, [...moves]]
+    const opposites = { L : 'R', R: 'L', D: 'U', U: 'D' }
     const operations = {
-      'R': () => x += 1,
-      'L': () => x -= 1,
-      'D': () => y -= 1,
-      'U': () => y += 1,
-      '*': (nextMove: string) => operations[nextMove](),
-      '!': (nextMove: string, nextPos: number) => arr[nextPos] = inverted[nextMove],
-      '?': (nextMove: string, nextPos: number) => 
-        arr[nextPos] = [nextMove][+(arr.lastIndexOf(nextMove, nextPos - 1) > -1)]
+      'R': () => x++,
+      'L': () => x--,
+      'D': () => y--,
+      'U': () => y++,
+      '*': (next: string) => operations[next](),
+      '!': (next: string, idx: number) => arr[idx] = opposites[next],
+      '?': (next: string, idx: number) => arr[idx] = [next][+(arr.indexOf(next) < idx)]
     }
-
-    for (const i in arr)
+    for (let i in arr)
       operations[arr[i]]?.(moves[+i + 1], +i + 1)
-
     return [true, [x, y]][+!!(x + y)]
   }
   ```
@@ -114,4 +106,11 @@ isRobotBack('UU!U?D') // [0,1]
 - **Python**
 
   ```py
+  def is_robot_back(moves: list[str]) -> bool | list[int]:
+    x = y = 0
+    inverted = { 'L': 'R', 'R': 'L', 'D': 'U', 'U': 'D' }
+    operations = {
+      'R': lambda : x
+    }
+    return True
   ```
