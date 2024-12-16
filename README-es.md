@@ -56,6 +56,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #12         | 💵 [¿Cuánto cuesta el árbol?](https://adventjs.dev/es/challenges/2024/12)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge12.md) |
 | #13         | 🤖 [¿El robot está de vuelta?](https://adventjs.dev/en/challenges/2024/13)       | 🔴         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge13.md) |
 | #14         | 🦌 [Acomodando los renos](https://adventjs.dev/en/challenges/2024/14)            | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge14.md) |
+| #15         | ✏️  [Dibujando tablas](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge15.md) |
 
 ## Cómo Contribuir
 
