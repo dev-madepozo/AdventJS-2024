@@ -57,6 +57,7 @@ To get started with the solutions, follow these steps:
 | #13         | 🤖 [Is the robot back?](https://adventjs.dev/en/challenges/2024/13)            | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge13.md) |
 | #14         | 🦌 [Weaving the reno](https://adventjs.dev/en/challenges/2024/14)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge14.md) |
 | #15         | ✏️  [Drawing tables](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge15.md) |
+| #16         | ❄️  [Cleaning the snow path](https://adventjs.dev/en/challenges/2024/16)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge16.md) |
 
 ## How to contribute
 
