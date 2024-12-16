@@ -39,10 +39,10 @@ removeSnow('a') // -> "a"
   * @returns {string}
   */
   function removeSnow(s) {
-    let clear = ''
+    let clean = ''
     for (const c of s)
-      clear = [clear + c, clear.slice(0, -1)][+(clear.endsWith(c))]
-    return clear;
+      clean = [clean + c, clean.slice(0, -1)][+(clean.endsWith(c))]
+    return clean;
   }
   ```
 
@@ -54,10 +54,10 @@ removeSnow('a') // -> "a"
   * @returns {string}
   */
   function removeSnow(s: string): string {
-    let clear = ''
+    let clean = ''
     for (const c of s)
-      clear = [clear + c, clear.slice(0, -1)][+(clear.endsWith(c))]
-    return clear;
+      clean = [clean + c, clean.slice(0, -1)][+(clean.endsWith(c))]
+    return clean;
   }
   ```
 
@@ -65,8 +65,8 @@ removeSnow('a') // -> "a"
 
   ```py
   def remove_snow(s):
-    clear = ''
+    clean = ''
     for c in s:
-        clear = [clear + c, clear[:-1]][int(clear.endswith(c))]
-    return clear
+        clean = [clean + c, clean[:-1]][int(clean.endswith(c))]
+    return clean
   ```
