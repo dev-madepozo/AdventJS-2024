@@ -39,10 +39,7 @@ removeSnow('a') // -> "a"
   * @returns {string}
   */
   function removeSnow(s) {
-    let clean = ''
-    for (const c of s)
-      clean = [clean + c, clean.slice(0, -1)][+(clean.endsWith(c))]
-    return clean;
+    return [...s].reduce((r, c) => [r + c, r.slice(0, -1)][+r.endsWith(c)], '')
   }
   ```
 
@@ -56,7 +53,7 @@ removeSnow('a') // -> "a"
   function removeSnow(s: string): string {
     let clean = ''
     for (const c of s)
-      clean = [clean + c, clean.slice(0, -1)][+(clean.endsWith(c))]
+      clean = [clean + c, clean.slice(0, -1)][+clean.endsWith(c)]
     return clean;
   }
   ```
@@ -67,6 +64,6 @@ removeSnow('a') // -> "a"
   def remove_snow(s):
     clean = ''
     for c in s:
-        clean = [clean + c, clean[:-1]][int(clean.endswith(c))]
+      clean = [clean + c, clean[:-1]][int(clean.endswith(c))]
     return clean
   ```
