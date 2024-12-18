@@ -49,11 +49,9 @@ findInAgenda(agenda, '1')
   */
   function findInAgenda(agenda, phone) {
     const kids = agenda.split('\n').filter(kid => kid.includes(phone))
-    const kidInfo = {
-      name: kids[0]?.match(/<(.*)>/)[1],
-      address: kids[0]?.replaceAll(/<.*>|\+[\d-]+/g, '').trim()
-    }
-    return [kidInfo, null][+(kids.length != 1)]
+    const name = kids[0]?.match(/<(.*)>/)[1]
+    const address = kids[0]?.replaceAll(/<.*>|\+[\d-]+/g, '').trim()
+    return [{ name, address }, null][+(kids.length != 1)]
   }
   ```
 
