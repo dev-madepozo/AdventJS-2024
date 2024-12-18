@@ -46,7 +46,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #2          | 🖼️ [Enmarcando nombres](https://adventjs.dev/es/challenges/2024/2)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge02.md) |
 | #3          | 🏗️ [Organizando el inventario](https://adventjs.dev/es/challenges/2024/3)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge03.md) |
 | #4          | 🎄 [Decorando el árbol de Navidad](https://adventjs.dev/es/challenges/2024/4)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge04.md) |
-| #5          | 👞 [Emparejando botas](https://adventjs.dev/es/challenges/2024/4)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge05.md) |
+| #5          | 👞 [Emparejando botas](https://adventjs.dev/es/challenges/2024/5)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge05.md) |
 | #6          | 📦 [¿Regalo dentro de la caja?](https://adventjs.dev/es/challenges/2024/6)       | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge06.md) |
 | #7          | 👹 [El ataque del Grinch](https://adventjs.dev/es/challenges/2024/7)             | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge07.md) |
 | #8          | 🦌 [La carrera de renos](https://adventjs.dev/es/challenges/2024/8)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge08.md) |
@@ -58,6 +58,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #14         | 🦌 [Acomodando los renos](https://adventjs.dev/en/challenges/2024/14)            | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge14.md) |
 | #15         | ✏️  [Dibujando tablas](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge15.md) |
 | #16         | ❄️  [Limpiando la nieve del camino](https://adventjs.dev/en/challenges/2024/16)   | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge16.md) |
+| #17         | 💣  [Busca las bombas del Grinch](https://adventjs.dev/en/challenges/2024/17)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge17.md) |
 
 ## Cómo Contribuir
 

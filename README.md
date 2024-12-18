@@ -46,7 +46,7 @@ To get started with the solutions, follow these steps:
 | #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md) |
 | #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md) |
 | #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge04.md) |
-| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/4)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md) |
+| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/5)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md) |
 | #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge06.md) |
 | #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md) |
 | #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md) |
@@ -58,6 +58,7 @@ To get started with the solutions, follow these steps:
 | #14         | 🦌 [Weaving the reno](https://adventjs.dev/en/challenges/2024/14)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge14.md) |
 | #15         | ✏️  [Drawing tables](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge15.md) |
 | #16         | ❄️  [Cleaning the snow path](https://adventjs.dev/en/challenges/2024/16)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge16.md) |
+| #17         | 💣 [Grinch's bombs](https://adventjs.dev/en/challenges/2024/17)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge17.md) |
 
 ## How to contribute
 
