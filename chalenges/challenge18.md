@@ -43,17 +43,18 @@ findInAgenda(agenda, '1')
 
   ```js
   /**
-   * @param {string} agenda
+  * @param {string} agenda
   * @param {string} phone
   * @returns {{ name: string, address: string } | null}
   */
   function findInAgenda(agenda, phone) {
-    const kids = agenda.split('\n').filter(item => item.includes(phone))
-    if (kids.length != 1) return null
-    return {
-      name: kids[0].match(/<(.*)>/)[1],
-      address: kids[0].replaceAll(/<.*>|\+[\d-]+/g, '').trim()
+    function findInAgenda(agenda, phone) {
+    const kids = agenda.split('\n').filter(kid => kid.includes(phone))
+    const kidInfo = {
+      name: kids[0]?.match(/<(.*)>/)[1],
+      address: kids[0]?.replaceAll(/<.*>|\+[\d-]+/g, '').trim()
     }
+    return [kidInfo, null][+(kids.length != 1)]
   }
   ```
 
