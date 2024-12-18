@@ -59,6 +59,7 @@ To get started with the solutions, follow these steps:
 | #15         | ✏️  [Drawing tables](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge15.md) |
 | #16         | ❄️  [Cleaning the snow path](https://adventjs.dev/en/challenges/2024/16)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge16.md) |
 | #17         | 💣 [Grinch's bombs](https://adventjs.dev/en/challenges/2024/17)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge17.md) |
+| #18         | 📇 [Santa's Magic Agenda](https://adventjs.dev/en/challenges/2024/18)          | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge18.md) |
 
 ## How to contribute
 

@@ -59,6 +59,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #15         | ✏️  [Dibujando tablas](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge15.md) |
 | #16         | ❄️  [Limpiando la nieve del camino](https://adventjs.dev/en/challenges/2024/16)   | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge16.md) |
 | #17         | 💣  [Busca las bombas del Grinch](https://adventjs.dev/en/challenges/2024/17)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge17.md) |
+| #18         | 📇 [La agenda mágica de Santa](https://adventjs.dev/en/challenges/2024/18)       | 🔴         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge18.md) |
 
 ## Cómo Contribuir
 
