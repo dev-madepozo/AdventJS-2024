@@ -40,26 +40,27 @@ To get started with the solutions, follow these steps:
 
 ## Table of Challenges
 
-|  Challenge  | Title                                                                          | Difficulty | Score      | Solution                           |
-| :---------: | :----------------------------------------------------------------------------- | :---:      | :--------  | :--------------------------------: |
-| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge01.md) |
-| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md) |
-| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md) |
-| #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge04.md) |
-| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/5)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md) |
-| #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)    | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge06.md) |
-| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)            | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md) |
-| #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md) |
-| #9          | 🚂 [The magic train](https://adventjs.dev/en/challenges/2024/9)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge09.md) |
-| #10         | 👩‍💻 [The elfish assembler](https://adventjs.dev/en/challenges/2024/10)          | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge10.md) |
-| #11         | 🏴‍☠️ [Filenames encoded](https://adventjs.dev/en/challenges/2024/11)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge11.md) |
-| #12         | 💵 [How much does the tree cost?](https://adventjs.dev/en/challenges/2024/12)  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge12.md) |
-| #13         | 🤖 [Is the robot back?](https://adventjs.dev/en/challenges/2024/13)            | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge13.md) |
-| #14         | 🦌 [Weaving the reno](https://adventjs.dev/en/challenges/2024/14)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge14.md) |
-| #15         | ✏️  [Drawing tables](https://adventjs.dev/en/challenges/2024/15)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge15.md) |
-| #16         | ❄️  [Cleaning the snow path](https://adventjs.dev/en/challenges/2024/16)        | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge16.md) |
-| #17         | 💣 [Grinch's bombs](https://adventjs.dev/en/challenges/2024/17)                | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge17.md) |
-| #18         | 📇 [Santa's Magic Agenda](https://adventjs.dev/en/challenges/2024/18)          | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge18.md) |
+|  Challenge  | Title                                                                                 | Difficulty | Score      | Solution                           |
+| :---------: | :------------------------------------------------------------------------------------ | :---:      | :--------  | :--------------------------------: |
+| #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge01.md) |
+| #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md) |
+| #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md) |
+| #4          | 🎄 [Decorating the Christmas tree](https://adventjs.dev/en/challenges/2024/4)         | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge04.md) |
+| #5          | 👞 [Shoe pairing](https://adventjs.dev/en/challenges/2024/5)                          | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge05.md) |
+| #6          | 📦 [Is the gift inside the box?](https://adventjs.dev/en/challenges/2024/6)           | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge06.md) |
+| #7          | 👹 [The Grinch's attack](https://adventjs.dev/en/challenges/2024/7)                   | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge07.md) |
+| #8          | 🦌 [The reno race](https://adventjs.dev/en/challenges/2024/8)                         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge08.md) |
+| #9          | 🚂 [The magic train](https://adventjs.dev/en/challenges/2024/9)                       | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge09.md) |
+| #10         | 👩‍💻 [The elfish assembler](https://adventjs.dev/en/challenges/2024/10)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge10.md) |
+| #11         | 🏴‍☠️ [Filenames encoded](https://adventjs.dev/en/challenges/2024/11)                    | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge11.md) |
+| #12         | 💵 [How much does the tree cost?](https://adventjs.dev/en/challenges/2024/12)         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge12.md) |
+| #13         | 🤖 [Is the robot back?](https://adventjs.dev/en/challenges/2024/13)                   | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge13.md) |
+| #14         | 🦌 [Weaving the reno](https://adventjs.dev/en/challenges/2024/14)                     | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge14.md) |
+| #15         | ✏️  [Drawing tables](https://adventjs.dev/en/challenges/2024/15)                       | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge15.md) |
+| #16         | ❄️  [Cleaning the snow path](https://adventjs.dev/en/challenges/2024/16)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge16.md) |
+| #17         | 💣 [Grinch's bombs](https://adventjs.dev/en/challenges/2024/17)                       | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge17.md) |
+| #18         | 📇 [Santa's Magic Agenda](https://adventjs.dev/en/challenges/2024/18)                 | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge18.md) |
+| #19         | 📦 [Stack magical boxes to deliver gifts](https://adventjs.dev/en/challenges/2024/19) | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge19.md) |
 
 ## How to contribute
 
