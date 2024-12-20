@@ -60,17 +60,15 @@ _____#_____
   ```js
   function createXmasTree(height, ornament) {
     let xmasTree = ''
+    const width = height * 2 -1
     const spaces = '_'.repeat(height - 1)
 
-    for (let i = 1; i <= height; i++) {
-      const spaces = '_'.repeat(height - i)
-      const ornaments = ornament.repeat(i * 2 - 1)
-      xmasTree += `${spaces}${ornaments}${spaces}\n`
+    for (let i = 1; i <= width; i += 2) {
+      const _ = '_'.repeat((width - i) / 2)
+      xmasTree += `${_}${ornament.repeat(i)}${_}\n`
     }
 
-    xmasTree += `${spaces}#${spaces}\n${spaces}#${spaces}`
-
-    return xmasTree
+    return `${xmasTree}${spaces}#${spaces}\n${spaces}#${spaces}`
   }
   ```
 
