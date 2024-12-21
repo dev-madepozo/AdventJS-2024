@@ -1,4 +1,4 @@
-# Challenge #20: 🎁 Find missing and duplicate gifts 
+# Challenge #20: 🎁 Find missing and duplicate gifts
 
 #### Level: `🟢 EASY`
 
