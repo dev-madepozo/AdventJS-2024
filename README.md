@@ -41,7 +41,7 @@ To get started with the solutions, follow these steps:
 ## Table of Challenges
 
 |  Challenge  | Title                                                                                 | Difficulty | Score      | Solution                           |
-| :---------: | :------------------------------------------------------------------------------------ | :---:      | :--------  | :--------------------------------: |
+| :---------: | :------------------------------------------------------------------------------------ | :--------: | :--------  | :--------------------------------: |
 | #1          | 🎁 [First gift repeated!](https://adventjs.dev/en/challenges/2024/1)                  | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge01.md) |
 | #2          | 🖼️ [Framing names](https://adventjs.dev/en/challenges/2024/2)                         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge02.md) |
 | #3          | 🏗️ [Organizing the inventory](https://adventjs.dev/en/challenges/2024/3)              | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge03.md) |
@@ -61,6 +61,7 @@ To get started with the solutions, follow these steps:
 | #17         | 💣 [Grinch's bombs](https://adventjs.dev/en/challenges/2024/17)                       | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge17.md) |
 | #18         | 📇 [Santa's Magic Agenda](https://adventjs.dev/en/challenges/2024/18)                 | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge18.md) |
 | #19         | 📦 [Stack magical boxes to deliver gifts](https://adventjs.dev/en/challenges/2024/19) | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge19.md) |
+| #20         | 🎁 [Find missing and duplicate gifts](https://adventjs.dev/en/challenges/2024/20)     | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge20.md) |
 
 ## How to contribute
 
