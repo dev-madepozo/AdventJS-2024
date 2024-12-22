@@ -40,8 +40,8 @@ Para comenzar con las soluciones, sigue estos pasos:
 
 ## Tabla de Desafíos
 
-|  Desafío    | Título                                                                                        | Dificultad | Puntuación  | Solución                         |
-| :---------: | :-------------------------------------------------------------------------------------------- | :---:      | :---------- | :------------------------------: |
+|  Desafío    | Título                                                                                        | Dificultad | Puntuación   | Solución                         |
+| :---------: | :-------------------------------------------------------------------------------------------- | :--------: | :----------- | :------------------------------: |
 | #1          | 🎁 [¡Primer regalo repetido!](https://adventjs.dev/es/challenges/2024/1)                      | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge01.md) |
 | #2          | 🖼️ [Enmarcando nombres](https://adventjs.dev/es/challenges/2024/2)                            | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge02.md) |
 | #3          | 🏗️ [Organizando el inventario](https://adventjs.dev/es/challenges/2024/3)                     | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge03.md) |
@@ -58,10 +58,11 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #14         | 🦌 [Acomodando los renos](https://adventjs.dev/en/challenges/2024/14)                         | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge14.md) |
 | #15         | ✏️  [Dibujando tablas](https://adventjs.dev/en/challenges/2024/15)                             | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge15.md) |
 | #16         | ❄️  [Limpiando la nieve del camino](https://adventjs.dev/en/challenges/2024/16)                | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge16.md) |
-| #17         | 💣  [Busca las bombas del Grinch](https://adventjs.dev/en/challenges/2024/17)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge17.md) |
+| #17         | 💣 [Busca las bombas del Grinch](https://adventjs.dev/en/challenges/2024/17)                  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge17.md) |
 | #18         | 📇 [La agenda mágica de Santa](https://adventjs.dev/en/challenges/2024/18)                    | 🔴         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge18.md) |
 | #19         | 📦 [Apila cajas mágicas para repartir regalos](https://adventjs.dev/en/challenges/2024/19)    | 🔴         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge19.md) |
 | #20         | 🎁 [Encuentra los regalos faltantes y duplicados](https://adventjs.dev/en/challenges/2024/20) | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge20.md) |
+| #21         | 🎄 [Calcula la altura del árbol de Navidad](https://adventjs.dev/en/challenges/2024/21)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge21.md) |
 
 ## Cómo Contribuir
 
