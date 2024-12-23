@@ -63,6 +63,7 @@ To get started with the solutions, follow these steps:
 | #19         | 📦 [Stack magical boxes to deliver gifts](https://adventjs.dev/en/challenges/2024/19)       | 🔴         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge19.md) |
 | #20         | 🎁 [Find missing and duplicate gifts](https://adventjs.dev/en/challenges/2024/20)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge20.md) |
 | #21         | 🎄 [Calculate the height of the Christmas tree](https://adventjs.dev/en/challenges/2024/21) | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge21.md) |
+| #22         | 🎁 [Generate gift combinations](https://adventjs.dev/en/challenges/2024/22)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge22.md) |
 
 ## How to contribute
 
