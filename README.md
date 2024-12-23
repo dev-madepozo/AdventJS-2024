@@ -64,6 +64,7 @@ To get started with the solutions, follow these steps:
 | #20         | 🎁 [Find missing and duplicate gifts](https://adventjs.dev/en/challenges/2024/20)           | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge20.md) |
 | #21         | 🎄 [Calculate the height of the Christmas tree](https://adventjs.dev/en/challenges/2024/21) | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge21.md) |
 | #22         | 🎁 [Generate gift combinations](https://adventjs.dev/en/challenges/2024/22)                 | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge22.md) |
+| #23         | 🔢 [Find the missing numbers](https://adventjs.dev/en/challenges/2024/23)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge23.md) |
 
 ## How to contribute
 
