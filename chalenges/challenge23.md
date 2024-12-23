@@ -41,8 +41,8 @@ findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
   */
   function findMissingNumbers(nums) {
     const length = Math.max(...nums)
-    const fullList = new Set(Array.from({ length }).map((_, i) => i + 1))
-    return [...fullList.difference(new Set(nums))]
+    const fullList = Array.from({ length }).map((_, i) => ++i)
+    return [...new Set(fullList).difference(new Set(nums))]
   }
   ```
 
@@ -55,8 +55,11 @@ findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
   */
   function findMissingNumbers(nums: number[]): number[] {
     const length = Math.max(...nums)
-    const fullList = new Set(Array.from({ length }).map((_, i) => i + 1))
-    return [...fullList.difference(new Set(nums))]
+    const missingNumbers = []
+    for (let i = 1; i < length; i++) {
+      !nums.includes(i) && missingNumbers.push(i)
+    }
+    return missingNumbers
   }
   ```
 
