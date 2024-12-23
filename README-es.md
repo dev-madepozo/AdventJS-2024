@@ -63,6 +63,8 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #19         | 📦 [Apila cajas mágicas para repartir regalos](https://adventjs.dev/en/challenges/2024/19)    | 🔴         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge19.md) |
 | #20         | 🎁 [Encuentra los regalos faltantes y duplicados](https://adventjs.dev/en/challenges/2024/20) | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge20.md) |
 | #21         | 🎄 [Calcula la altura del árbol de Navidad](https://adventjs.dev/en/challenges/2024/21)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge21.md) |
+| #22         | 🎁 [Genera combinaciones de regalos](https://adventjs.dev/en/challenges/2024/22)              | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge22.md) |
+| #23         | 🔢 [Encuentra los números perdidos](https://adventjs.dev/en/challenges/2024/23)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge23.md) |
 
 ## Cómo Contribuir
 
