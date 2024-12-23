@@ -64,5 +64,6 @@ findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
 
   ```py
   def find_missing_numbers(nums):
-    return [n in for m in range(1, max(nums) + 1) if n not nums]
+    n = max(nums)
+    return [x for x in range(1, n) if x not in nums]
   ```
