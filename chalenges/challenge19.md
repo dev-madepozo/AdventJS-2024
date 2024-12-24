@@ -79,12 +79,62 @@ distributeWeight(6)
 - **JavaScript**
 
   ```js
+  function distributeWeight(weight) {
+    const boxRepresentations = {
+      1: [" _ ", "|_|"] ,
+      2: [" ___ ", "|___|"],
+      5: [" _____ ", "|     |", "|_____|"],
+      10: [" _________ ", "|         |", "|_________|"]
+    }
+    const sizes = [10, 5, 2, 1]
+    let size = sizes.find(size => size <= weight)
+    let previousSize= size
+    const boxes = [boxRepresentations[size].join('\n')]
+
+    while(weight -= size) {
+      size = sizes.find(size => size <= weight)
+      const topBox = boxRepresentations[size].at(-1)
+      const rest = size == previousSize
+        ? boxes[0].slice(topBox.length)
+        : boxes[0].slice(topBox.length).replace(' ', '')
+      boxes[0] = `${topBox}${rest}`
+      boxes.unshift(boxRepresentations[size].slice(0, -1).join('\n'))
+      previousSize = size
+    }
+
+    return boxes.join('\n')
+  }
   ```
 
 
 - **TypeScript**
 
   ```ts
+  function distributeWeight(weight: number): string {
+    const boxRepresentations = {
+      1: [" _ ", "|_|"] ,
+      2: [" ___ ", "|___|"],
+      5: [" _____ ", "|     |", "|_____|"],
+      10: [" _________ ", "|         |", "|_________|"]
+    }
+    const sizes = [10, 5, 2, 1]
+    let size = sizes.find(size => size <= weight)
+    let previousSize= size
+    const boxes = [boxRepresentations[size].join('\n')]
+
+    while(weight -= size) {
+      size = sizes.find(size => size <= weight)
+      const topBox = boxRepresentations[size].at(-1)
+      const rest = size == previousSize
+        ? boxes[0].slice(topBox.length)
+        : boxes[0].slice(topBox.length).replace(' ', '')
+      boxes[0] = `${topBox}${rest}`
+      boxes.unshift(boxRepresentations[size].slice(0, -1).join('\n'))
+      previousSize = size
+    }
+
+    return boxes.join('\n')
+  }
   ```
 
 - **Python**
