@@ -1,4 +1,4 @@
-# Challenge #23: 🪞 Check if trees are magical mirrors
+# Challenge #24: 🪞 Check if trees are magical mirrors
 
 #### Level: `🟠 MEDIUM`
 
