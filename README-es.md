@@ -65,6 +65,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #21         | 🎄 [Calcula la altura del árbol de Navidad](https://adventjs.dev/en/challenges/2024/21)       | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge21.md) |
 | #22         | 🎁 [Genera combinaciones de regalos](https://adventjs.dev/en/challenges/2024/22)              | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge22.md) |
 | #23         | 🔢 [Encuentra los números perdidos](https://adventjs.dev/en/challenges/2024/23)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge23.md) |
+| #24         | 🪞 [Verifica si los árboles son espejos mágicos](https://adventjs.dev/en/challenges/2024/23)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge24.md) |
 
 ## Cómo Contribuir
 
