@@ -67,6 +67,7 @@ To get started with the solutions, follow these steps:
 | #23         | 🔢 [Find the missing numbers](https://adventjs.dev/en/challenges/2024/23)                   | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge23.md) |
 | #24         | 🪞 [Check if trees are magical mirrors](https://adventjs.dev/en/challenges/2024/24)         | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge24.md) |
 | #25         | 🪄 [Execute the magical language](https://adventjs.dev/en/challenges/2024/25)               | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge25.md) |
+| #26         | 🎯 [Calculate the completed percentage](https://adventjs.dev/en/challenges/2024/26)         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge26.md) |
 
 ## How to contribute
 

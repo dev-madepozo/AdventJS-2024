@@ -67,6 +67,7 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #23         | 🔢 [Encuentra los números perdidos](https://adventjs.dev/en/challenges/2024/23)               | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge23.md) |
 | #24         | 🪞 [Verifica si los árboles son espejos mágicos](https://adventjs.dev/en/challenges/2024/24)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge24.md) |
 | #25         | 🪄 [Ejecuta el lenguaje mágico](https://adventjs.dev/en/challenges/2024/25)                   | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge25.md) |
+| #26         | 🎯 [Calcula el porcentaje completado](https://adventjs.dev/en/challenges/2024/26)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge26.md) |
 
 ## Cómo Contribuir
 
