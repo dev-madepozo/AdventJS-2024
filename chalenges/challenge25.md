@@ -43,10 +43,10 @@ execute('-[++{-}]+{++++}') // 5
       '+': () => value++,
       '-': () => value--,
       '{': () => {
-        i = [i, code.indexOf('}', i)][+!value]
+        i = [i, code.indexOf('}', i) + 1][+!value]
       },
       '[': () => {
-        i = code.indexOf(']', i)
+        i = code.indexOf(']', i) + 1
         value &&= 0 
       }
     }
@@ -74,10 +74,10 @@ execute('-[++{-}]+{++++}') // 5
       '+': () => value++,
       '-': () => value--,
       '{': () => {
-        i = [i, code.indexOf('}', i)][+!value]
+        i = [i, code.indexOf('}', i) + 1][+!value]
       },
       '[': () => {
-        i = code.indexOf(']', i)
+        i = code.indexOf(']', i) + 1
         value &&= 0 
       }
     }
