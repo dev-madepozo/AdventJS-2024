@@ -13,8 +13,9 @@ This repository contains my solutions to the [AdventJS 2024](https://www.adventj
 
 1. [Getting Started](#getting-started)
 2. [Table of Challenges](#table-of-contents)
-3. [How to Contribute](#how-to-contribute)
-4. [License](#license)
+3. [Board](#board)
+4. [How to Contribute](#how-to-contribute)
+5. [License](#license)
 
 ## Getting Started
 
@@ -68,6 +69,10 @@ To get started with the solutions, follow these steps:
 | #24         | 🪞 [Check if trees are magical mirrors](https://adventjs.dev/en/challenges/2024/24)         | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge24.md) |
 | #25         | 🪄 [Execute the magical language](https://adventjs.dev/en/challenges/2024/25)               | 🟠         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge25.md) |
 | #26         | 🎯 [Calculate the completed percentage](https://adventjs.dev/en/challenges/2024/26)         | 🟢         | ⭐️⭐️⭐️⭐️⭐️ | [view](/chalenges/challenge26.md) |
+
+## Board
+
+![Result AdventJS 2024](/assets/board.png)
 
 ## How to contribute
 

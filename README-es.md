@@ -13,8 +13,9 @@ Este repositorio contiene mis soluciones a los desafíos de programación de [Ad
 
 1. [Introducción](#introducción)
 2. [Tabla de Desafíos](#tabla-de-desafíos)
-3. [Cómo Contribuir](#cómo-contribuir)
-4. [Licencia](#licencia)
+3. [Board](#board)
+4. [Cómo Contribuir](#cómo-contribuir)
+5. [Licencia](#licencia)
 
 ## Introducción
 
@@ -68,6 +69,10 @@ Para comenzar con las soluciones, sigue estos pasos:
 | #24         | 🪞 [Verifica si los árboles son espejos mágicos](https://adventjs.dev/en/challenges/2024/24)  | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge24.md) |
 | #25         | 🪄 [Ejecuta el lenguaje mágico](https://adventjs.dev/en/challenges/2024/25)                   | 🟠         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge25.md) |
 | #26         | 🎯 [Calcula el porcentaje completado](https://adventjs.dev/en/challenges/2024/26)             | 🟢         | ⭐️⭐️⭐️⭐️⭐️  | [ver](/chalenges/challenge26.md) |
+
+## Board
+
+![Board AdventJS 2024](/assets/board.png)
 
 ## Cómo Contribuir
 
